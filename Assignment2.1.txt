@@ -1,0 +1,11 @@
+Task1:
+hadoop fs -ls /user/acadgild
+hadoop fs -mkdir /user/acadgild/hadoop
+ 
+Task2:
+hadoop fs -put /user/acadgild/hadoop/word-count.txt
+ 
+hadoop fs -cat /user/acadgild/hadoop/word-count.txt
+ctrl+D
+OR
+echo "ajdfbdjf" | hadoop fs -put /user/acadgild/hadoop/word-count.txt
